@@ -1,0 +1,556 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: 'Hiragino Sans GB', 'Microsoft YaHei', 'Arial', 'Helvetica', 'sans-serif';
+}
+body {
+	overflow-x: hidden !important;
+}
+.banner {
+	width: 100%;
+	height: 0.9rem;
+	background: url('../img/index/a1.png') no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	> img {
+		width: 1.6rem;
+		height: 0.3rem;
+		margin-right: 0.72rem;
+		margin-top: 0.34rem;
+	}
+	> div {
+		margin-right: 0.32rem;
+		margin-top: 0.33rem;
+		display: flex;
+		position: relative;
+		.hover {
+			position: absolute;
+			top: -0.17rem;
+			left: -0.39rem;
+			width: 1.14rem;
+			height: 0.74rem;
+			z-index: 2;
+		}
+		.nav {
+			width: 4.37rem;
+			height: 0.35rem;
+			position: relative;
+			z-index: 3;
+		}
+		a {
+			width: 1.14rem;
+			height: 0.74rem;
+			position: absolute;
+			z-index: 5;
+		}
+		.sy {
+			top: -0.18rem;
+			left: -0.39rem;
+		}
+		.cpjs {
+			top: -0.18rem;
+			left: 0.9rem;
+		}
+		.zsjm {
+			top: -0.18rem;
+			left: 2.13rem;
+		}
+		.gywm {
+			top: -0.18rem;
+			left: 3.34rem;
+		}
+	}
+}
+.b2 {
+	width: 100%;
+	height: 5.98rem;
+	background: url('../img/index/a24.png') no-repeat center;
+	background-size: 120% 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+	margin-top: -0.12rem;
+	overflow: hidden;
+	.oneimg {
+		width: 5.53rem;
+		height: 0.78rem;
+		margin-top: 0.52rem;
+	}
+	.imgs {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		height: 1.58rem;
+		overflow: hidden;
+		background: #fff;
+		p {
+			max-width: 3rem;
+			overflow: hidden;
+			flex: 1;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+	.imgspan {
+		display: flex;
+		width: 100%;
+		margin-top: -0.28rem;
+		justify-content: center;
+		p {
+			flex: 1;
+			max-width: 3rem;
+			display: flex;
+			justify-content: center;
+		}
+	}
+	.one {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-top: 0.2rem;
+		margin-bottom: 0.45rem;
+		p {
+			max-width: 3rem;
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			span {
+				font-size: 0.25rem;
+				font-weight: 500;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.36rem;
+				text-align: center;
+			}
+		}
+		p:first-child {
+			span {
+				width: 2.26rem;
+			}
+		}
+		p:nth-last-child(2) {
+			span {
+				width: 2.7rem;
+			}
+		}
+	}
+}
+.b3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url('../img/index/a12.png') no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 1.66rem;
+	margin-top: -0.55rem;
+	span:nth-of-type(1) {
+		width: 5.55rem;
+		height: 25px;
+		font-size: 24px;
+		font-family: SourceHanSansSC-Heavy;
+		font-weight: 800;
+		color: rgba(255, 255, 255, 1);
+		line-height: 0.26rem;
+	}
+
+	span:last-child {
+		width: 4.65rem;
+		height: 22px;
+		font-size: 0.22rem;
+		font-family: SourceHanSansSC-Regular;
+		font-weight: 400;
+		color: rgba(255, 255, 255, 1);
+		line-height: 0.28rem;
+		margin-top: 0.08rem;
+	}
+}
+.b4 {
+	width: 100%;
+	// height: 4.34rem;
+	position: relative;
+	> img {
+		position: absolute;
+		left: 50%;
+		margin-left: -0.88rem;
+		top: 0.46rem;
+		z-index: 1000;
+	}
+	.swiper-container {
+		width: 100%;
+		height: 4.34rem;
+	}
+
+	.swiper-container .swiper-wrapper {
+		width: 100%;
+		height: 4.34rem;
+		transition-timing-function: linear;
+	}
+
+	.swiper-container .swiper-wrapper .s1 {
+		width: 100%;
+		height: 100%;
+		background: url('../img/index/a22.png') no-repeat 0%;
+		background-size: 200% 100%;
+	}
+
+	.swiper-container .swiper-wrapper .s2 {
+		width: 100%;
+		height: 100%;
+		background: url('../img/index/a22.png') no-repeat 100%;
+		background-size: 200% 100%;
+	}
+}
+.b5 {
+	display: flex;
+	width: 100%;
+	height: 4.05rem;
+	margin-top: -0.01rem;
+	.left {
+		width: 2.5rem;
+		height: 4.05rem;
+		background: url('../img/index/a13.png') no-repeat;
+		background-size: 100% 100%;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		span {
+			width: 215px;
+			font-size: 35px;
+			font-family: SourceHanSansSC-Heavy;
+			font-weight: 800;
+			color: rgba(102, 102, 102, 1);
+			line-height: 38px;
+			text-align: right;
+			margin-right: 0.14rem;
+			margin-bottom: 0.17rem;
+		}
+	}
+	.right {
+		flex: 1;
+		background: #00a7e2;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+		p {
+			margin-left: 0.16rem;
+		}
+		.title {
+			font-size: 28px;
+			font-family: SourceHanSansSC-Heavy;
+			font-weight: 800;
+			color: rgba(255, 255, 255, 1);
+			line-height: 18px;
+			margin-top: 0.53rem;
+			margin-bottom: 0.18rem;
+		}
+
+		.content {
+			font-size: 22px;
+			font-family: SourceHanSansSC-Normal;
+			font-weight: 400;
+			color: rgba(255, 255, 255, 1);
+			line-height: 28px;
+			width: 4.39rem;
+			text-align: justify;
+			text-justify: newspaper;
+		}
+		.content:nth-of-type(2) {
+			width: 100%;
+		}
+	}
+}
+.b6 {
+	display: flex;
+	width: 100%;
+	height: 6.39rem;
+	.right {
+		width: 2.72rem;
+		height: 6.39rem;
+		background: url('../img/index/a14.png') no-repeat;
+		background-size: 100% 100%;
+		display: flex;
+		align-items: flex-end;
+		span {
+			width: 2.45rem;
+			height: 72px;
+			font-size: 35px;
+			font-family: SourceHanSansSC-Heavy;
+			font-weight: bolder;
+			color: rgba(102, 102, 102, 1);
+			line-height: 38px;
+			margin-left: 0.13rem;
+			margin-bottom: 0.73rem;
+		}
+	}
+	.left {
+		flex: 1;
+
+		p {
+			margin-left: 0.45rem;
+			font-size: 22px;
+			font-family: SourceHanSansSC-Normal;
+			font-weight: 400;
+			color: rgba(104, 104, 104, 1);
+			line-height: 32px;
+			.title {
+				font-size: 31px;
+				font-family: SourceHanSansSC-Heavy;
+				font-weight: 800;
+				color: rgba(104, 104, 104, 1);
+				line-height: 31px;
+				margin-right: 0.1rem;
+			}
+		}
+
+		.explain {
+			font-size: 25px;
+			font-family: SourceHanSansSC-Bold;
+			font-weight: bold;
+			color: rgba(104, 104, 104, 1);
+			margin-top: 0.1rem;
+		}
+		.content {
+			width: 4rem;
+			font-size: 22px;
+			font-family: SourceHanSansSC-Normal;
+			font-weight: 400;
+			color: rgba(104, 104, 104, 1);
+			line-height: 28px;
+			text-align: justify;
+			text-justify: newspaper;
+			margin-top: 0.17rem;
+		}
+		p:nth-of-type(3) {
+			margin-top: 0.1rem;
+		}
+		p:nth-of-type(1) {
+			margin-top: 0.52rem;
+		}
+		p:nth-of-type(4) {
+			margin-top: 0.44rem;
+		}
+	}
+}
+.b7 {
+	width: 100%;
+	height: 16.55rem;
+	background: url('../img/index/a15.png') no-repeat -30px 0.98rem #2a679f;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	.one {
+		margin-top: 0.75rem;
+		p {
+			margin-left: 0.5rem;
+		}
+		p:first-child {
+			width: 64px;
+			height: 10px;
+			background: #fff;
+		}
+		p:last-child {
+			display: flex;
+			margin-top: 0.17rem;
+			span {
+				width: 2.8rem;
+				font-size: 0.35rem;
+				font-family: SourceHanSansSC-Heavy;
+				font-weight: 800;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.38rem;
+			}
+		}
+	}
+	.two {
+		display: flex;
+		align-items: center;
+		margin-top: 0.73rem;
+		.left {
+			margin-left: 0.5rem;
+			.title {
+				font-size: 0.4rem;
+				font-family: SourceHanSansSC-Heavy;
+				font-weight: 800;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.61rem;
+			}
+			.explain {
+				font-size: 0.24rem;
+				font-family: SourceHanSansSC-Normal;
+				font-weight: 400;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.36rem;
+				margin: 0 0 0.1rem;
+			}
+			.content {
+				width: 3.3rem;
+				font-size: 0.22rem;
+				font-family: SourceHanSansSC-Normal;
+				font-weight: 400;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.28rem;
+				text-align: justify;
+				text-justify: newspaper;
+				letter-spacing: 0.1px;
+			}
+		}
+		.right {
+			position: relative;
+			display: flex;
+			align-items: center;
+			margin-left: 0.1rem;
+			.a1 {
+				position: relative;
+				z-index: 1;
+				left: 0.18rem;
+				top: -0.18rem;
+			}
+			.a2 {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+	.three {
+		// display: flex;
+		position: relative;
+		margin-top: 1.06rem;
+		.left {
+			margin-left: 0.79rem;
+			display: flex;
+		}
+		.right {
+			margin-right: 0.4rem;
+			position: absolute;
+			right: 0;
+			top: 0.1rem;
+			.a1 {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+				p {
+					text-align: right;
+				}
+				p:first-child {
+					width: 64px;
+					height: 10px;
+					background: #fff;
+				}
+				p:last-child {
+					display: flex;
+					margin-top: 0.12rem;
+
+					width: 2.8rem;
+					font-size: 0.35rem;
+					font-family: SourceHanSansSC-Heavy;
+					font-weight: 800;
+					color: rgba(255, 255, 255, 1);
+					line-height: 0.38rem;
+				}
+			}
+			.title {
+				font-size: 0.4rem;
+				font-family: SourceHanSansSC-Heavy;
+				font-weight: 800;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.79rem;
+				text-align: right;
+				margin-top: 0.5rem;
+			}
+			.explain {
+				font-size: 0.24rem;
+				font-family: SourceHanSansSC-Normal;
+				font-weight: 400;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.36rem;
+				text-align: right;
+				margin-top: -0.1rem;
+			}
+			.content {
+				font-size: 0.22rem;
+				font-family: SourceHanSansSC-Normal;
+				font-weight: 400;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.28rem;
+				text-align: right;
+				letter-spacing: 0.1px;
+				margin-top: 0.1rem;
+			}
+		}
+	}
+	.four {
+		position: relative;
+		margin-left: 0.79rem;
+		margin-right: 0.4rem;
+		margin-top: 0.4rem;
+		.left {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+			.title {
+				font-size: 0.4rem;
+				font-family: SourceHanSansSC-Heavy;
+				font-weight: 800;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.79rem;
+				margin-top: 0.65rem;
+			}
+			.explain {
+				font-size: 0.24rem;
+				font-family: SourceHanSansSC-Normal;
+				font-weight: 400;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.36rem;
+				margin-top: -0.1rem;
+				margin-bottom: 0.05rem;
+			}
+			.content {
+				width: 3.17rem;
+				font-size: 0.22rem;
+				font-family: SourceHanSansSC-Normal;
+				font-weight: 400;
+				color: rgba(255, 255, 255, 1);
+				line-height: 0.28rem;
+				letter-spacing: 0.1px;
+			}
+		}
+		.right {
+			display: flex;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	}
+	footer {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		z-index: 1000;
+		display: flex;
+		height: 0.8rem;
+		background: #2667a0;
+		a {
+			flex: 1;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				width: 1.69rem;
+				height: 0.32rem;
+			}
+		}
+		a:first-child {
+			background: #00a7e2;
+		}
+	}
+}
